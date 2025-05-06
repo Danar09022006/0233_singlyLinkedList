@@ -138,7 +138,12 @@ int main()
         cout << endl << "list Kosong" << endl;
         break;
       }
-      
+      cout << endl << "\nMasukkna no Mahasiswa yang akan dihapus : ";
+cin >> nim;
+if (mhs.delNode(nim) == false)
+  cout << endl << "Data tidak ditemukan" << endl;
+else
+  cout << endl << "Data dengan nomor Mahasiswa" << nim << "berhasil dihapus " << endl;
       
       
       
@@ -158,16 +163,16 @@ int main()
         cout << "\nList Kosong\n";
         break;
       }
-      node *previous, *current;
-      cout << endl << "Masukkan no Mahasiswa yang dicari : ";
-      cin >> nim;
-      if (mhs.Search(nim, &previous ,&current) == false)
-        cout << endl << "Data tidak ditemukan" << endl;
-      else
-      {
-        cout << endl << "Data ditemukan" << endl;
-        cout << "\nNo Mahasiswa : " << current->noMhs << endl;
-        cout << "\n";
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
       }
     }
     break;
