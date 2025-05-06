@@ -185,7 +185,7 @@ else
     break;
     default:
     {
-     
+      cout << "Pilihan Salah !." << endl;
     }
     break;
   }
